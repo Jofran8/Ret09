@@ -22,7 +22,7 @@ const Home = () => {
         filter="?fecha_like=Mar"
       />
       <Services
-        title=" RESOURCES "
+        title=" RESOURCES " 
         filter=""
         // filter="?_end='id'"
       />

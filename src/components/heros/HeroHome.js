@@ -2,7 +2,7 @@ import {
   Link
 } from 'react-router-dom';
 import PropTypes from "prop-types";
-import heroImg from '../../assets/img/hero2.jpg';
+import HeroSlider from './HeroSlider';
 
 const HeroHome = ({ company }) => {
 
@@ -28,7 +28,7 @@ const HeroHome = ({ company }) => {
         </div>
         <div className="hero__figure">
           <figure className="hero__figure-image-container">
-            <img src={heroImg} alt="Imagen de portada" className="hero__figure-image" />
+           <HeroSlider className="hero__figure-image"/>
           </figure>
         </div>
       </div>

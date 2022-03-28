@@ -10,6 +10,7 @@ import {
 import News from './pages/News';
 import About  from './pages/About';
 
+
 function App() {
   return (
     <Router>

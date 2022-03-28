@@ -12,10 +12,11 @@
   --button-text-color-active: #000;
   --padding-section: 2rem 0;
   --padding-container: 0 2rem;
-  --primary-highlight: #61dafb;
+  --primary-highlight: #7861fb;
   --secondary-highlight: #ffd700;
   --border-radius: 0.5rem;
   --all-transitions: all 0.25s;
+  --header-nav:rgb(240, 225, 14);
 }
 
 .body {
@@ -25,7 +26,13 @@
   margin: 0;
   transition: var(--all-transitions);
 }
-
+.services__title{
+  
+    font-size: 2rem;
+    margin: 0;
+    border-left: 62px #b18605 solid;
+  
+}
 .openModalBtn {
   width: 200px;
   height: 40px;
