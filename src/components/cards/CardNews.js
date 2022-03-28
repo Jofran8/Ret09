@@ -6,8 +6,10 @@ import PropTypes from 'prop-types';
 
 const CardNews = ({ title, filter }) => {
 
-  const recurso = `/news${filter}`;
+  // const recurso = `/news${filter}`;
+  const recurso = `news`;
 
+  // const [cupcakes, error] = useApi(recurso);
   const [news, error] = useApi(recurso);
 
   if (error) {
