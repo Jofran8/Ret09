@@ -19,7 +19,8 @@ const Home = () => {
       />
       <CardNews
         title=" LASTES NEWS "
-        filter="?fecha_like=Mar"
+        
+        filter='?fecha_like=Mar'
       />
       <Services
         title=" RESOURCES " 
